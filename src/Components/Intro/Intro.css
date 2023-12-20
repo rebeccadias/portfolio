@@ -81,6 +81,7 @@
 .div-sociallinks a {
   text-decoration: none; /* Removes underline */
   margin-bottom: 2em; /* Space between icons */
+  padding: 10px; /* Add right margin to each link */
 }
 
 /* Media query for smaller screens */
@@ -91,9 +92,10 @@
     right: 50%; /* Center horizontally */
     transform: translateX(50%); /* Adjust for exact centering horizontally */
     display: flex; /* Use flexbox for layout */
-    flex-direction: row; /* Align items horizontally */
+
     align-items: center; /* Center items vertically within the flex container */
-    padding: 0; /* Adjust padding as needed */
-    margin-bottom: 0; /* Reset bottom margin */
+  }
+  div-sociallinks a {
+    padding: 10px; /* Add right margin to each link */
   }
 }
