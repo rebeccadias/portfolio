@@ -20,3 +20,42 @@
   font-size: 1em;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .common-all-divs {
+    padding-left: 100px;
+    padding-top: 150px;
+  }
+
+  .div-hello {
+    font-size: 1.5em;
+  }
+
+  .div-name {
+    font-size: 4em;
+  }
+
+  .div-title {
+    font-size: 0.8em;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .common-all-divs {
+    padding-left: 50px;
+    padding-top: 100px;
+  }
+
+  .div-hello {
+    font-size: 1.2em;
+  }
+
+  .div-name {
+    font-size: 2em;
+  }
+
+  .div-title {
+    font-size: 0.7em;
+  }
+}
