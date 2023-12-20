@@ -1,5 +1,7 @@
 /* Navbar.css */
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
 nav {
   display: flex;
   align-items: center; /* Aligns items vertically in the center */
@@ -11,12 +13,16 @@ nav {
 
 .nav-logo img {
   width: 90px; /* Adjust the size as needed */
+  margin-top: 10px;
 }
 
 .nav-links ul {
   list-style: none; /* Removes default list styling */
   display: flex; /* Aligns links in a row */
-  gap: 20px; /* Optional: adds space between the links */
+  gap: 70px; /* Optional: adds space between the links */
+  font-family: "Montserrat", sans-serif; /* Apply Montserrat to your nav links */
+  font-size: 1.5em; /* Adjust the size as needed */
+  margin-left: 10px;
 }
 
 .nav-links li {
@@ -25,6 +31,7 @@ nav {
 
 .nav-links a {
   text-decoration: none; /* Removes underline from links */
-  color: #333; /* Sets the text color */
+
+  color: #156669;
   font-weight: 500; /* Optional: sets the font weight */
 }
