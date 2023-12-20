@@ -60,6 +60,7 @@
   .education-block {
     width: 100%; /* Each block takes up the full width of the container */
     margin: 10px 0; /* Adds space above and below each block, removes space on the sides */
+    font-size: 0.5em;
   }
 
   .div-dates-gpa {

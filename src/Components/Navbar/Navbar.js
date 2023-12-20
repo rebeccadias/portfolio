@@ -15,6 +15,11 @@ const Navbar = () => {
             <a href="/">Home</a>
           </li>
           <li>
+            <a href="https://drive.google.com/file/d/1M4FPidRp4EvC4WggFBYyag-8PdswkkBe/view?usp=sharing">
+              Resume
+            </a>
+          </li>
+          <li>
             <a href="/">Projects</a>
           </li>
           <li>

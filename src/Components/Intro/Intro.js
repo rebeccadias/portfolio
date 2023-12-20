@@ -16,6 +16,7 @@ const Intro = () => {
           <TypingAnimation />
         </div>
       </div>
+
       <div className="div-sociallinks">
         {/* Link to LinkedIn profile */}
         <a
