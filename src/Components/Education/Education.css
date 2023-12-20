@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
 .education-container {
   display: flex;
   justify-content: space-around; /* This will space out the blocks nicely */
   padding: 20px; /* Add some padding around the container */
+  font-family: "Montserrat", sans-serif; /* Apply Montserrat to your nav links */
+
+  color: #563913;
 }
 
 .education-block {
@@ -11,4 +16,59 @@
   border: 1px solid #ccc; /* Optional border for each block */
   border-radius: 5px; /* Optional rounded corners for each block */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for each block */
+}
+
+.div-dates-gpa {
+  display: flex;
+  justify-content: space-between; /* This will place the two items on opposite ends */
+  align-items: center; /* This will vertically align the items if they are of different heights */
+  font-size: 1em; /* Adjust the size as needed */
+  padding-top: 20px;
+}
+
+.div-degree1,
+.div-degree2 {
+  font-size: 1.5em; /* Adjust the size as needed */
+}
+.div-coursework1 {
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+.div-coursework1 ol {
+  font-size: 0.8em;
+  list-style: none;
+  padding-left: 10px;
+}
+.div-clubs {
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+.div-clubs ol {
+  font-size: 0.8em;
+  list-style: none;
+  padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .education-container {
+    flex-direction: column;
+    align-items: center; /* This will center the blocks vertically */
+  }
+
+  .education-block {
+    width: 100%; /* Each block takes up the full width of the container */
+    margin: 10px 0; /* Adds space above and below each block, removes space on the sides */
+  }
+
+  .div-dates-gpa {
+    flex-direction: column; /* Stack dates and GPA on top of each other */
+    align-items: flex-start; /* Align to the start of the flex container */
+  }
+
+  .div-dates,
+  .div-gpa {
+    margin: 5px 0; /* Add some vertical space between stacked items */
+  }
 }
