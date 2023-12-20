@@ -35,3 +35,21 @@ nav {
   color: #156669;
   font-weight: 500; /* Optional: sets the font weight */
 }
+
+@media screen and (max-width: 390px) {
+  .nav-logo img {
+    width: 60px; /* Smaller logo size */
+    margin-top: 5px;
+  }
+
+  .nav-links ul {
+    gap: 20px; /* Reduced space between links */
+    font-size: 1em; /* Smaller font size */
+  }
+
+  nav {
+    padding: 0 10px; /* Reduced padding */
+  }
+
+  /* Add any other style adjustments needed for smaller screens */
+}
