@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+nav {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  justify-content: space-between; /* Distributes space between and around content items */
+  padding: 0 20px; /* Add padding on the sides for some space */
+  /* background: #fff; Example background color */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Optional: adds a slight shadow for depth */
+}
+
+.nav-logo img {
+  width: 90px; /* Adjust the size as needed */
+}
+
+.nav-links ul {
+  list-style: none; /* Removes default list styling */
+  display: flex; /* Aligns links in a row */
+  gap: 20px; /* Optional: adds space between the links */
+}
+
+.nav-links li {
+  padding: 0; /* Removes default padding if present */
+}
+
+.nav-links a {
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Sets the text color */
+  font-weight: 500; /* Optional: sets the font weight */
+}
