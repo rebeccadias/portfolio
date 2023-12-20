@@ -59,3 +59,41 @@
     font-size: 0.7em;
   }
 }
+
+/* SocialLinks.css */
+
+.div-sociallinks {
+  position: fixed;
+  top: 55%; /* Center vertically */
+  right: 0; /* Align to the right */
+  transform: translateY(-50%); /* Adjust for exact centering */
+  padding: 0 20px; /* Right padding for some space from the edge */
+}
+
+.div-sociallinks a i {
+  text-decoration: none; /* Removes underline */
+  display: block; /* Stack icons vertically */
+  margin-bottom: 2.5em; /* Space between icons */
+  color: #156669;
+  font-size: 2em; /* Adjust icon size as needed */
+}
+
+.div-sociallinks a {
+  text-decoration: none; /* Removes underline */
+  margin-bottom: 2em; /* Space between icons */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 400px) {
+  .div-sociallinks {
+    position: fixed;
+    bottom: 0; /* Align at the bottom of the viewport */
+    right: 50%; /* Center horizontally */
+    transform: translateX(50%); /* Adjust for exact centering horizontally */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Center items vertically within the flex container */
+    padding: 0; /* Adjust padding as needed */
+    margin-bottom: 0; /* Reset bottom margin */
+  }
+}
