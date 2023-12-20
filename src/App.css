@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,4 +18,24 @@ body {
   background-repeat: no-repeat;
   background-position: center; /* Ensures the image is centered */
   min-height: 100vh; /* Use min-height to cover the full viewport height */
+}
+
+.proj_container {
+  background-image: url(././Assets/page3_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Ensures the image is centered */
+  min-height: 100vh; /* Use min-height to cover the full viewport height */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+}
+
+.content {
+  background-image: url(././Assets/Jobs.png);
+  position: relative;
+  z-index: 1;
+  padding: 30px 40px;
+  font-family: "Montserrat", sans-serif; /* Apply Montserrat to your nav links */
+  font-size: 1.5em; /* Adjust the size as needed */
 }

@@ -1,0 +1,14 @@
+.education-container {
+  display: flex;
+  justify-content: space-around; /* This will space out the blocks nicely */
+  padding: 20px; /* Add some padding around the container */
+}
+
+.education-block {
+  width: 45%; /* Makes each block take up less than half the container */
+  margin: 10px; /* Adds some space between the blocks */
+  padding: 20px; /* Adds padding inside each block */
+  border: 1px solid #ccc; /* Optional border for each block */
+  border-radius: 5px; /* Optional rounded corners for each block */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for each block */
+}
