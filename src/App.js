@@ -4,7 +4,7 @@ import Projects from "./Components/Projects/Projects";
 import Education from "./Components/Education/Education";
 import Skills from "./Components/Skills/Skills";
 import Footer from "./Components/Footer/Footer";
-
+import Experience from "./Components/Experience/Experience";
 import "./App.css";
 
 function App() {
@@ -20,7 +20,10 @@ function App() {
           <Education />
         </div>
       </div>
-
+      <div className="div-experience">
+        <div className="div-div-experience">Experience</div>
+        <Experience />
+      </div>
       <div className="div-skills">
         <Skills />
       </div>

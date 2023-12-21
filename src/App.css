@@ -42,11 +42,12 @@ body {
 }
 
 .div-skills {
-  background-image: url(./Assets/Values_2.png);
+  background-image: url(./Assets/edu_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; /* Ensures the image is centered */
   min-height: 100vh; /* Use min-height to cover the full viewport height */
+  background-attachment: fixed;
 }
 
 .div-footer {
@@ -58,4 +59,21 @@ body {
   .main_container {
     min-height: 50vh; /* Use min-height to cover the full viewport height */
   }
+}
+
+.div-experience {
+  background-image: url(././Assets/Values_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Ensures the image is centered */
+  min-height: 100vh; /* Use min-height to cover the full viewport height */
+}
+
+.div-div-experience {
+  position: relative;
+  z-index: 1;
+  padding: 40px 40px;
+  font-family: "Montserrat", sans-serif; /* Apply Montserrat to your nav links */
+  font-size: 3em; /* Adjust the size as needed */
+  color: #563913;
 }
