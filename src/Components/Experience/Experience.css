@@ -44,6 +44,7 @@
   .div-exp2,
   .div-exp3 {
     width: 80%; /* Increase width to use more space on smaller screens */
+    font-size: 0.8em;
   }
 }
 

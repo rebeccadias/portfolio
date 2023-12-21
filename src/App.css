@@ -84,4 +84,13 @@ body {
     font-size: 1.5em;
     padding: 20px 20px;
   }
+
+  .div-skills {
+    background-image: url(./Assets/edu_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Ensures the image is centered */
+    min-height: 50vh; /* Use min-height to cover the full viewport height */
+    background-attachment: fixed;
+  }
 }
