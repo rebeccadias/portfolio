@@ -12,16 +12,19 @@ const Navbar = () => {
       <div className="nav-links">
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="https://rebeccadias.github.io/portfolio/">Home</a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1M4FPidRp4EvC4WggFBYyag-8PdswkkBe/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/1M4FPidRp4EvC4WggFBYyag-8PdswkkBe/view?usp=sharing"
+              target="_blank"
+            >
               Resume
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/">Projects</a>
-          </li>
+          </li> */}
           <li>
             <a href="/">About</a>
           </li>

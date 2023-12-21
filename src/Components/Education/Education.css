@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 .education-container {
-  display: flex;
-  justify-content: space-around; /* This will space out the blocks nicely */
+  justify-content: center; /* This will space out the blocks nicely */
+  align-items: center;
   padding: 20px; /* Add some padding around the container */
   font-family: "Montserrat", sans-serif; /* Apply Montserrat to your nav links */
-
+  padding-left: 150px; /* Add some padding around the container */
   color: #563913;
 }
 
 .education-block {
+  justify-content: center;
+
   width: 45%; /* Makes each block take up less than half the container */
   margin: 10px; /* Adds some space between the blocks */
-  padding: 20px; /* Adds padding inside each block */
+  padding: 30px; /* Adds padding inside each block */
   border: 1px solid #ccc; /* Optional border for each block */
   border-radius: 5px; /* Optional rounded corners for each block */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for each block */
@@ -53,6 +55,7 @@
 
 @media (max-width: 768px) {
   .education-container {
+    padding-left: 30px;
     flex-direction: column;
     align-items: center; /* This will center the blocks vertically */
   }
