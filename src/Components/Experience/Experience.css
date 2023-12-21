@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.exp-container {
+  justify-content: center; /* This will space out the blocks nicely */
+  align-items: center;
+  padding: 20px; /* Add some padding around the container */
+  font-family: "Montserrat", sans-serif; /* Apply Montserrat to your nav links */
+  padding-left: 150px; /* Add some padding around the container */
+  color: #563913;
+}
+
+.div-exp1,
+.div-exp2,
+.div-exp3 {
+  justify-content: center;
+
+  width: 60%; /* Makes each block take up less than half the container */
+  margin: 10px; /* Adds some space between the blocks */
+  padding: 30px; /* Adds padding inside each block */
+  border: 1px solid #ccc; /* Optional border for each block */
+  border-radius: 5px; /* Optional rounded corners for each block */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for each block */
+}
+
+.div-row1,
+.div-row2,
+.div-row3 {
+  display: flex;
+  justify-content: space-between; /* This will place the two items on opposite ends */
+  align-items: center; /* This will vertically align the items if they are of different heights */
+  font-size: 1em; /* Adjust the size as needed */
+  padding-top: 20px;
+}
