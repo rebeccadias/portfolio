@@ -36,9 +36,9 @@ nav {
   font-weight: 500; /* Optional: sets the font weight */
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
   .nav-logo img {
-    width: 60px; /* Smaller logo size */
+    width: 30px; /* Smaller logo size */
     margin-top: 5px;
   }
 

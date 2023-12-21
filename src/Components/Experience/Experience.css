@@ -31,3 +31,39 @@
   font-size: 1em; /* Adjust the size as needed */
   padding-top: 20px;
 }
+
+/* Responsive styles using media queries */
+
+/* For tablets and smaller devices */
+@media (max-width: 500px) {
+  .exp-container {
+    padding-left: 20px; /* Reduce padding for smaller screens */
+  }
+
+  .div-exp1,
+  .div-exp2,
+  .div-exp3 {
+    width: 80%; /* Increase width to use more space on smaller screens */
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .exp-container {
+    padding-left: 10px;
+  }
+
+  .div-exp1,
+  .div-exp2,
+  .div-exp3 {
+    width: 100%; /* Use full width on very small screens */
+  }
+
+  .div-row1,
+  .div-row2,
+  .div-row3 {
+    font-size: 0.5em;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+}
