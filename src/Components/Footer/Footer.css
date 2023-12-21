@@ -1,0 +1,33 @@
+/* Footer.css */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.footer {
+  background-color: #deecf6;
+  font-family: "Montserrat", sans-serif; /* Apply Montserrat to your nav links */
+  color: #563913;
+}
+.footer p {
+  /* background-color: #e3eef6; */
+  background-color: #deecf6;
+  color: #563913;
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.div-socials {
+  text-align: center;
+}
+
+.div-socials a i {
+  text-decoration: none; /* Removes underline */
+  margin-bottom: 20px; /* Space between icons */
+  color: #563913;
+  font-size: 2em; /* Adjust icon size as needed */
+}
+.div-socials i {
+  padding-top: 20px;
+  text-align: center;
+  padding-right: 20px;
+}

@@ -49,6 +49,11 @@ body {
   min-height: 100vh; /* Use min-height to cover the full viewport height */
 }
 
+.div-footer {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 768px) {
   .main_container {
     min-height: 50vh; /* Use min-height to cover the full viewport height */

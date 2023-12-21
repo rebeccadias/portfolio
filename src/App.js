@@ -3,6 +3,7 @@ import Intro from "./Components/Intro/Intro";
 import Projects from "./Components/Projects/Projects";
 import Education from "./Components/Education/Education";
 import Skills from "./Components/Skills/Skills";
+import Footer from "./Components/Footer/Footer";
 
 import "./App.css";
 
@@ -22,6 +23,10 @@ function App() {
 
       <div className="div-skills">
         <Skills />
+      </div>
+
+      <div className="div-footer">
+        <Footer />
       </div>
     </div>
   );
