@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Intro from "./Components/Intro/Intro";
 import Projects from "./Components/Projects/Projects";
 import Education from "./Components/Education/Education";
+import Skills from "./Components/Skills/Skills";
 
 import "./App.css";
 
@@ -17,6 +18,10 @@ function App() {
           <div className="content">Education</div>
           <Education />
         </div>
+      </div>
+
+      <div className="div-skills">
+        <Skills />
       </div>
     </div>
   );

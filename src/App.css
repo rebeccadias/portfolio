@@ -37,8 +37,16 @@ body {
   z-index: 1;
   padding: 40px 40px;
   font-family: "Montserrat", sans-serif; /* Apply Montserrat to your nav links */
-  font-size: 1.5em; /* Adjust the size as needed */
+  font-size: 3em; /* Adjust the size as needed */
   color: #563913;
+}
+
+.div-skills {
+  background-image: url(./Assets/Values_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Ensures the image is centered */
+  min-height: 100vh; /* Use min-height to cover the full viewport height */
 }
 
 @media (max-width: 768px) {

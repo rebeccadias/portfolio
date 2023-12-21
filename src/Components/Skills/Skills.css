@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+.div-whatIcan .div-p-Skills {
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #563913;
+  font-size: 3em;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.div-skills-overall {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allows the boxes to wrap on smaller screens */
+  padding-top: 20px;
+}
+.skill-category {
+  flex: 1; /* Each box takes equal width */
+  margin: 10px; /* Space between boxes */
+  padding: 20px; /* Padding inside each box */
+  border: 1px solid #ccc; /* Border for each box */
+  border-radius: 5px; /* Rounded corners for each box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  min-width: 200px; /* Minimum width for each box */
+  color: #563913;
+  font-family: "Space Grotesk", sans-serif;
+
+  font-size: 1.4em;
+}
+
+.skill-category ul {
+  padding-top: 10px;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.skill-category:hover {
+  border: 2px solid #563913; /* Border for each box */
+}
