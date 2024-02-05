@@ -6,6 +6,15 @@ const Experience = () => {
     <div className="exp-container">
       <div className="div-exp1">
         <div className="div-row1">
+          <div>Incoming SDE Summer 2024 Intern</div>
+          <div>May 2024 - August 2024 (Expected) </div>
+        </div>
+        <div className="div-row2">
+          <div>Amazon LLC.</div>
+        </div>
+      </div>
+      <div className="div-exp1">
+        <div className="div-row1">
           <div>Technical Coordinator</div>
           <div>September 2023 - Present</div>
         </div>
